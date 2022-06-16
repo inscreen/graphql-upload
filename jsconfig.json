@@ -2,8 +2,10 @@
   "compilerOptions": {
     "maxNodeModuleJsDepth": 10,
     "module": "nodenext",
-    "noEmit": true,
-    "strict": true
+    "strict": true,
+    "declaration": true,
+    "noEmit": false,
+    "emitDeclarationOnly": true
   },
   "typeAcquisition": {
     "enable": false
